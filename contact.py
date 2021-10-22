@@ -51,7 +51,7 @@ class Contact:
         Returns :
             Boolean: True or false depending if the contact exists
         '''
-        #for loop conditional statement used.
+        #for loop conditional statement used.   
         for contact in cls.contact_list:
             if contact.phone_number == number:
                     return True
